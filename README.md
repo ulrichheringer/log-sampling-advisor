@@ -1,15 +1,15 @@
 # log-sampling-advisor
 
-Estimate log volume reduction and discarded level/message signatures for a deterministic sampling policy.
+See how much log volume a sampling rule would remove and which level/message combinations could disappear.
 
 ## Install
 
-Requires Go 1.23 or newer. Build with `go install github.com/ulrichheringer/log-sampling-advisor@latest`.
+With Go 1.23 or newer, install it with `go install github.com/ulrichheringer/log-sampling-advisor@latest`.
 
 ## Use
 
-Pass JSON-lines logs with `-input logs.jsonl`; use `-strategy every` or `-strategy severity` and set `-every N`.
+Pass a JSON Lines file with `-input logs.jsonl`. Choose `-strategy every` or `-strategy severity`, then set the interval with `-every N`.
 
 ## Example
 
-Run `go run . -input examples/simulated-events.jsonl -strategy severity -every 10`. The records are simulated; estimates reflect only the supplied sample.
+The example data is simulated. Run `go run . -input examples/simulated-events.jsonl -strategy severity -every 10`. Results are estimates based on the supplied events.
