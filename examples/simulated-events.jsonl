@@ -1,0 +1,5 @@
+{"timestamp":"2026-10-01T12:00:00Z","level":"info","message":"GET /health"}
+{"timestamp":"2026-10-01T12:00:01Z","level":"info","message":"GET /items"}
+{"timestamp":"2026-10-01T12:00:02Z","level":"error","message":"database unavailable"}
+{"timestamp":"2026-10-01T12:00:03Z","level":"info","message":"GET /items"}
+{"timestamp":"2026-10-01T12:00:04Z","level":"warn","message":"retrying connection"}
