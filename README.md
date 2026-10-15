@@ -1,4 +1,6 @@
-# log-sampling-advisor
+# Log Sampling Advisor
+
+[![Go](https://img.shields.io/badge/Go-1.23%2B-00ADD8?logo=go&logoColor=white)](https://go.dev/) [![MIT License](https://img.shields.io/badge/License-MIT-007ec6.svg)](LICENSE)
 
 See how much log volume a sampling rule would remove and which level/message combinations could disappear.
 
